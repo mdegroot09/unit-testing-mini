@@ -18,18 +18,15 @@ describe('Math functions', () => {
   })
   
   test('add should subtract one number from another and return the difference', () => {
-    expect(add(2,3)).toEqual(5)
-    expect(add(6,3)).toEqual(9)
+    expect(subtract(5,3)).toEqual(2)
   })
   
   test('add should divide one number from another and return the result', () => {
-    expect(add(2,3)).toEqual(5)
-    expect(add(6,3)).toEqual(9)
+    expect(divide(10,5)).toEqual(2)
   })
   
   test('add should multiply two numbers and return the product', () => {
-    expect(add(2,3)).toEqual(5)
-    expect(add(6,3)).toEqual(9)
+    expect(multiply(4,5)).toEqual(20)
   })
 })
 
